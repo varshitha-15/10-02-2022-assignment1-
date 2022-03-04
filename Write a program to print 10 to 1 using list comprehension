@@ -1,0 +1,6 @@
+nums = range(10,1)
+print(list(nums))
+print(list(map(str, nums)))
+
+Output:[10,9, 8, 7, 6, 5, 4, 3, 2, 1]
+['10', '9', '8', '7', '6', '5','4','3','2','1')
