@@ -1,0 +1,19 @@
+my_tuple_1 = (11, 14, 0, 78, 33, 11)
+my_tuple_2 = (10, 78, 0, 56, 8, 34)
+
+print("The first tuple is : ")
+print(my_tuple_1)
+print("The second tuple is : ")
+print(my_tuple_2)
+
+my_result = my_tuple_1 + my_tuple_2
+
+print("The tuple after concatenation is : " )
+print(my_result)
+
+Output:The first tuple is :
+(11, 14, 0, 78, 33, 11)
+The second tuple is :
+(10, 78, 0, 56, 8, 34)
+The tuple after concatenation is :
+(11, 14, 0, 78, 33, 11, 10, 78, 0, 56, 8, 34)
